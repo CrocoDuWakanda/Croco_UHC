@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:creeper",
+	"minecraft:phantom",
+	"minecraft:ravager",
+	"minecraft:zombie",
+	"minecraft:zombie_villager",
+	"minecraft:zombified_piglin",
+	"minecraft:shulker",
+	"minecraft:skeleton",
+	"minecraft:wither_skeleton",
+	"minecraft:guardian",
+	"minecraft:spider",
+	"minecraft:enderman",
+	"minecraft:cave_spider",
+	"minecraft:blaze",
+	"minecraft:pillager",
+	"minecraft:evoker",
+	"minecraft:vex",
+	"minecraft:piglin_brute"
+  ]
+}

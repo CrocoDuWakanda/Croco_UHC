@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "# #",
+    "XO ",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fire_charge"
+    },
+    "X": {
+      "item": "minecraft:gunpowder"
+    },
+    "O": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "minecraft:structure_void"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "on_hit": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "event_usw:for_achivements/on_hit"
+  }
+}
