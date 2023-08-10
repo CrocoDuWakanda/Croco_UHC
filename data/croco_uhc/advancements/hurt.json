@@ -5,7 +5,7 @@
       }
     },
     "rewards": {
-      "function": "event_usw:for_achivements/on_hurt"
+      "function": "croco_uhc:load"
     }
   }
   

@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "event_usw:for_achivements/on_hit"
+    "function": "croco_uhc:load"
   }
 }
