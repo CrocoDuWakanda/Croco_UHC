@@ -16,3 +16,4 @@ execute at @e[type=armor_stand,tag=spawn_armor_stand] run summon armor_stand ~-4
 execute at @e[type=armor_stand,tag=spawn_armor_stand] run summon armor_stand ~4 ~1 ~ {Tags: ["team_selector"], Invisible: 1b, Invulnerable: 1b, NoGravity: 1b, Small: 1b, CustomName: '{"text":"Spectator","bold":true,"color":"gray"}', CustomNameVisible: 1b}
 scoreboard players set team_check booleens 1
 function croco_uhc:spawn_setup/team_check
+worldborder set 3000
