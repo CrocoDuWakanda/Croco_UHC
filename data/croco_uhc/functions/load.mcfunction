@@ -24,6 +24,9 @@ scoreboard objectives add booleens dummy
 scoreboard objectives add timers dummy
 
 scoreboard objectives add lenghts dummy
+
+scoreboard objectives add stop_game trigger
+scoreboard players enable @a[tag=admin] stop_game
 ##################
 
 
