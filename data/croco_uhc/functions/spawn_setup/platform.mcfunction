@@ -1,10 +1,12 @@
 scoreboard players enable @a[tag=admin] start_new_game
 scoreboard players set @a[tag=admin] start_new_game 2
+scoreboard players set len_spawn lenghts 0
+scoreboard players set len_player lenghts 0
+scoreboard players set len_spec lenghts 0
 kill @e[tag=team_selector,type=armor_stand]
 tp @a 0 303 0
 summon armor_stand 0 300 0 {Tags: ["spawn_armor_stand"], Invisible: 1b, NoGravity: 1b, Invulnerable: 1b}
-execute at @e[type=armor_stand,tag=spawn_armor_stand,distance=..5] run tag @a add spawn
-execute at @e[type=armor_stand,tag=spawn_armor_stand,distance=..7] run team join player
+function croco_uhc:spawn_setup/team_join
 execute at @e[type=armor_stand,tag=spawn_armor_stand] run fill ~-5 ~-1 ~-5 ~5 ~-1 ~5 bedrock
 execute at @e[type=armor_stand,tag=spawn_armor_stand] run fill ~-6 ~ ~-6 ~6 ~10 ~6 barrier hollow
 execute at @e[type=armor_stand,tag=spawn_armor_stand] run fill ~-5 ~ ~-5 ~5 ~ ~5 grass_block replace barrier

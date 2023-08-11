@@ -21,6 +21,8 @@ scoreboard players enable @a[tag=admin] start_new_game
 scoreboard objectives add booleens dummy
 
 scoreboard objectives add timers dummy
+
+scoreboard objectives add lenghts dummy
 ##################
 
 
